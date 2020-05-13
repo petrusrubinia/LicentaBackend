@@ -1,0 +1,20 @@
+
+p	java:S116="VRename this field "cod_de_bare" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¹“Œøÿÿÿÿ
+r	java:S117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù‡éşÿÿÿÿ8’ßÆ¢ .
+c	java:S107b"BConstructor has 10 parameters, which is greater than 7 authorized.(ù‡éşÿÿÿÿ8’ßÆ¢ .
+r	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­˜™Áûÿÿÿÿ8´ÿ“.
+r	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­˜™Áûÿÿÿÿ8´ÿ“.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ±Û…úÿÿÿÿ8ïÖÓ…“.
+f	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Ø¢ş
+r	java:S117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù‡éşÿÿÿÿ8’ßÆ¢ .
+r	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­˜™Áûÿÿÿÿ8´ÿ“.
+r	java:S117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù‡éşÿÿÿÿ8’ßÆ¢ .
+r	java:S1168"]Rename this field "data_achizitionare" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µƒ Ş
+x	java:S116G"WRename this field "nume_imagine" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ÇÍ…úÿÿÿÿ8ºáÃ¢ .
+]	java:S107I"AConstructor has 8 parameters, which is greater than 7 authorized.(”Ø¢ş8•Ê¥²›.
+r	java:S117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù‡éşÿÿÿÿ8’ßÆ¢ .
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8¢™•ú.
+f	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Ø¢ş
+f	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Ø¢ş
+r	java:S1163"XRename this field "data_expirare" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á„÷íûÿÿÿÿ

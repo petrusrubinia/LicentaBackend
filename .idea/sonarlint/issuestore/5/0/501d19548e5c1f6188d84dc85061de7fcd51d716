@@ -1,0 +1,25 @@
+
+j
+java:S4488B"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ëòÒäşÿÿÿÿ8ÎÎÉŸ.
+f
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ï˜¦8ÎÎÉŸ.
+e
+java:S4488="HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(©í™ì8ÎÎÉŸ.
+e
+java:S4488-"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ç¼8ÎÎÉŸ.
+g
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Ú¿Ìã8„Îÿ¶›.
+j
+java:S4488#"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(•Şõüÿÿÿÿ8ÎÎÉŸ.
+j
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(à”äúÿÿÿÿ8ÎÎÉŸ.
+b
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(®ËàŸûÿÿÿÿ8¥íÉŸ.
+]	java:S125)"<This block of commented-out lines of code should be removed.(èÿõ¤úÿÿÿÿ8ÎÎÉŸ.
+j
+java:S4488'"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ìåßÑøÿÿÿÿ8ÎÎÉŸ.
+}
+java:S1128"[Remove this unused import 'org.springframework.boot.autoconfigure.EnableAutoConfiguration'.(æèşŞøÿÿÿÿ8„Îÿ¶›.
+]
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(é×Ş¡8„Îÿ¶›.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡‡Ôşÿÿÿÿ8„Îÿ¶›.

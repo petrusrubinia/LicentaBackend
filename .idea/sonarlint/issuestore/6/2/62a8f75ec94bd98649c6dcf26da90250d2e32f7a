@@ -1,0 +1,10 @@
+
+q
+java:S1128"ORemove this unused import 'com.backLicenta.aliment.validator.AlimentValidator'.(Ñàí¬şÿÿÿÿ8ÇÉ³œ.
+`
+java:S1128"CRemove this unused import 'com.backLicenta.aliment.domain.Aliment'.(ØÚ‰¶8ç›é³œ.
+r
+java:S1128	"PRemove this unused import 'com.backLicenta.validation.AlimentNotFoundException'.(¼÷ôûÿÿÿÿ8¤¿Ò³œ.
+o
+java:S1128"RRemove this unused import 'com.backLicenta.aliment.repository.IAlimentRepository'.(èß«ô8åºÈ³œ.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÂÃèØ
