@@ -1,5 +1,6 @@
 package com.backLicenta.aliment.api;
 import com.backLicenta.aliment.domain.Aliment;
+import com.backLicenta.aliment.domain.CodDeBare;
 import com.backLicenta.aliment.service.IAlimentService;
 import com.backLicenta.aliment.validator.AlimentAPIException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import com.backLicenta.validation.AlimentNotFoundException;
 
 import java.util.List;
+@EnableAutoConfiguration
 @RequestMapping(value = "/aliment")
 @RestController
 public class AlimentAPI {
@@ -19,27 +21,34 @@ public class AlimentAPI {
     }
 
     @RequestMapping(value = "/add",method = RequestMethod.POST)
-    public Aliment add(@RequestBody Aliment aliment){
+    public Aliment add(@RequestBody Aliment aliment ){
         return alimentService.add(aliment);
     }
 
     @RequestMapping(value = "/update",method = RequestMethod.POST)
     public Aliment update(@RequestBody Aliment aliment){
-        return alimentService.add(aliment);
+        return alimentService.update(aliment);
     }
+
 
     @RequestMapping(value = "/getOne/{id}", method = RequestMethod.GET)
     public Aliment getAliment(@PathVariable("id") int id) throws AlimentNotFoundException {
         return alimentService.get(id);
     }
-    @RequestMapping(value = "/count/{categorie}", method = RequestMethod.GET)
-    public int countByType(@PathVariable("categorie") String categorie) {
-        return alimentService.countByType(categorie);
+    @RequestMapping(value = "/getByBarcode/{id}", method = RequestMethod.GET)
+    public CodDeBare getAlimentByBarcode(@PathVariable("id") String id) throws AlimentNotFoundException {
+        return alimentService.getByBarcode(id);
     }
-    @RequestMapping(value = "/all", method = RequestMethod.GET)
-    public List<Aliment> getAll() {
+    @RequestMapping(value = "/count", method = RequestMethod.POST)
+    public int countByType(@RequestBody Aliment categorie) {
+        System.out.println("AFISARE ID-> "+ categorie.getIdUser());
+        return alimentService.countByType(categorie.getCategorie(),categorie.getIdUser());
+    }
+    @RequestMapping(value = "/all/{id}", method = RequestMethod.GET)
+    public List<Aliment> getAll(@PathVariable("id") int id) {
        // System.out.println("in http://localhost:8080/api/aliment/all");
-        return alimentService.getAll();
+        System.out.println("afisare id---->>" + id);
+        return alimentService.getAll(id);
     }
 
     @RequestMapping(value = "/getAllCategory", method = RequestMethod.GET)
@@ -53,6 +62,7 @@ public class AlimentAPI {
         try {
             alimentService.remove(id);
         } catch (AlimentNotFoundException e) {
+
             throw new AlimentAPIException("Nu exista alimentul cu acest id, pentru a putea fi sters");
         }
     }
@@ -60,7 +70,7 @@ public class AlimentAPI {
 
     @RequestMapping(value = "/optimTemp", method = RequestMethod.GET)
     public int optimTemp() {
-        return alimentService.getOptimalTemp();
+        return alimentService.getOptimumTemp();
     }
 
     @RequestMapping(value = "/actualTemp", method = RequestMethod.GET)

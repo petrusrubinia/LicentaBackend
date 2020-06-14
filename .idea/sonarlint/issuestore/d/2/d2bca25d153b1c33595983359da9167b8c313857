@@ -1,10 +1,14 @@
 
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(∆ı√ß¯ˇˇˇˇ8≤æÃÖì.
-M
-java:S1128
-"+Remove this unused import 'java.util.List'.(’Î±ƒ¯ˇˇˇˇ8…„ñ≤ì.
+T	java:S106;"9Replace this use of System.out or System.err by a logger.(·Èª	8≤•√È£.
+^
+java:S1126,"AReplace this if-then-else statement by a single return statement.(ë¡Úñ8Ÿ‰⁄È¢.
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(ô¯ÄÂ8Äè´È£.
 [
-java:S1155">Use isEmpty() to check whether the collection is empty or not.(ë¡Úñ8¬‰á≤ì.
-X	java:S125"<This block of commented-out lines of code should be removed.(£ˆêî8¥õ˙±ì.
-W
-java:S1126"AReplace this if-then-else statement by a single return statement.(ë¡Úñ
+java:S1155,">Use isEmpty() to check whether the collection is empty or not.(ë¡Úñ8Ÿ‰⁄È¢.
+X	java:S125"<This block of commented-out lines of code should be removed.(£ˆêî8¥õ˙±ì.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(†≥Ø«8ÛÙÆÍ¢.
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(®∂—Õ˛ˇˇˇˇ8ôÌ≤È£.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(◊úÜ≠8´Ä∞Í¢.
+[
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ÃÌﬂ§8Æﬂ¶Í¢.

@@ -12,10 +12,7 @@ public class AlimentValidator {
         if(aliment.getNume() == null || aliment.getNume().equals(Strings.EMPTY)){
             result.rejectError("nume","Numele nu poate sa fie null");
         }
-        if(aliment.getCantitate().charAt(aliment.getCantitate().length()-1)=='g'){
-            result.rejectError("cantitate", "Cantitatea nu poate sa contina tipul de masura al greutatii");
-        }
-        if(aliment.getTemperatura() < -2 || aliment.getTemperatura() > 6)
+        if( aliment.getTemperatura() > 6)
         {
             result.rejectError("temperatura", "Temperatura introdusa nu este una optima!");
         }
@@ -27,6 +24,19 @@ public class AlimentValidator {
             result.rejectError("data_achizitionare", "Data de achizitionare nu ar trebui sa fie nulla");
         }
 
+
+    }
+
+    public void validateDateCodBare(Aliment aliment, ValidationResult validationResult) {
+        if(aliment.getNume() == null || aliment.getNume().equals(Strings.EMPTY)){
+            validationResult.rejectError("nume","Numele nu poate sa fie null");
+        }
+        if( aliment.getTemperatura() > 6 || aliment.getTemperatura()== -100)
+        {
+            validationResult.rejectError("temperatura", "Temperatura introdusa nu este una optima!");
+        }
+        if(aliment.getCategorie().equals(""))
+            validationResult.rejectError("categorie", "Categoria nu poate lipsi!");
 
     }
 }

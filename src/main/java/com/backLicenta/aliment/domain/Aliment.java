@@ -5,16 +5,13 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.sql.Blob;
 import java.util.Date;
 
 @Entity
 @Builder
-@Table(name = "aliment", schema="licenta")
+@Table(name = "alimente", schema="licenta")
 public class Aliment {
     @Getter
     @Setter
@@ -22,38 +19,11 @@ public class Aliment {
     @Column(name = "id", unique = true)
     private int id;
 
-
     @Getter
     @Setter
-    @Column(name = "nume", nullable = false)
-    private String nume;
+    @Column(name = "id_user", nullable = false)
+    private int idUser;
 
-    @Getter
-    @Setter
-    @Column(name = "categorie", nullable = true)
-    private String categorie;
-
-
-    @Getter
-    @Setter
-    @Column(name = "cantitate", nullable = true)
-    private String cantitate;
-
-
-    @Getter
-    @Setter
-    @Column(name = "temperatura", nullable = true)
-    private int temperatura;
-
-    @Getter
-    @Setter
-    @Column(name = "data_expirare", nullable = false)
-    private String data_expirare;
-
-    @Getter
-    @Setter
-    @Column(name = "data_achizitionare", nullable = false)
-    private String data_achizitionare;
 
     @Getter
     @Setter
@@ -62,49 +32,87 @@ public class Aliment {
 
     @Getter
     @Setter
-    @Column(name = "imagine", nullable = true)
-    private Blob imagine;
+    @Column(name = "nume", nullable = false)
+    private String nume;
 
     @Getter
     @Setter
-    @Column(name = "nume_imagine", nullable = true)
-    private String nume_imagine;
+    @Column(name = "categorie", nullable = false)
+    private String categorie;
 
-    public Aliment(int id, String nume,String categorie, String cantitate, int temperatura, String data_expirare, String data_achizitionare, String cod_de_bare) {
-        this.id = id;
+
+    @Getter
+    @Setter
+    @Column(name = "cantitate", nullable = true)
+    private String cantitate;
+    @Getter
+    @Setter
+    @Column(name = "bucati", nullable = true)
+    private int bucati;
+
+    @Getter
+    @Setter
+    @Column(name = "temperatura", nullable = true)
+    private int temperatura;
+
+    @Getter
+    @Setter
+    @Column(name = "data_expirare", nullable = true)
+    private String data_expirare;
+
+    @Getter
+    @Setter
+    @Column(name = "data_achizitionare", nullable = true)
+    private String data_achizitionare;
+
+    public Aliment(String cod_de_bare, String nume, String categorie, String cantitate, int bucati, int temperatura, String data_expirare, String data_achizitionare) {
+        this.cod_de_bare = cod_de_bare;
         this.nume = nume;
         this.categorie = categorie;
         this.cantitate = cantitate;
+        this.bucati = bucati;
         this.temperatura = temperatura;
         this.data_expirare = data_expirare;
         this.data_achizitionare = data_achizitionare;
-        this.cod_de_bare = cod_de_bare;
     }
 
-    public Aliment(String nume, String categorie, String cantitate, int temperatura, String data_expirare, String data_achizitionare, String cod_de_bare) {
+    public Aliment(int id, String cod_de_bare, String nume, String categorie, String cantitate, int bucati, int temperatura, String data_expirare, String data_achizitionare) {
+        this.id = id;
+        this.cod_de_bare = cod_de_bare;
         this.nume = nume;
+        this.bucati = bucati;
         this.categorie = categorie;
         this.cantitate = cantitate;
         this.temperatura = temperatura;
         this.data_expirare = data_expirare;
         this.data_achizitionare = data_achizitionare;
+    }
+
+
+    public Aliment(int id, int idUser, String cod_de_bare, String nume, String categorie, String cantitate,int bucati, int temperatura, String data_expirare, String data_achizitionare) {
+        this.id = id;
+        this.idUser = idUser;
         this.cod_de_bare = cod_de_bare;
+        this.nume = nume;
+        this.categorie = categorie;
+        this.cantitate = cantitate;
+        this.bucati = bucati;
+
+        this.temperatura = temperatura;
+        this.data_expirare = data_expirare;
+        this.data_achizitionare = data_achizitionare;
     }
 
     public Aliment() {
-
     }
 
-    public Aliment(int id, String nume, String categorie, String cantitate, int temperatura, String data_expirare, String data_achizitionare, String cod_de_bare, Blob imagine, String nume_imagine) {
-        this.id = id;
-        this.nume = nume;
+    public Aliment(int idUser, String categorie) {
+        this.idUser = idUser;
         this.categorie = categorie;
-        this.cantitate = cantitate;
-        this.temperatura = temperatura;
-        this.data_expirare = data_expirare;
-        this.data_achizitionare = data_achizitionare;
-        this.cod_de_bare = cod_de_bare;
-        this.imagine = imagine;
-        this.nume_imagine = nume_imagine;
+    }
+
+    @Override
+    public String toString() {
+        return nume + " " + cantitate + " " + temperatura;
     }
 }

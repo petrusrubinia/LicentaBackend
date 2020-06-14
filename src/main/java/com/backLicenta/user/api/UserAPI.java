@@ -20,7 +20,7 @@ public class UserAPI {
     }
 
     @RequestMapping(value = "/audentificare", method = RequestMethod.POST)
-    public boolean login(@RequestBody User user){
+    public User login(@RequestBody User user){
         return userService.login(user);
     }
 
@@ -28,4 +28,13 @@ public class UserAPI {
     public User addUser(@RequestBody User user){
         return userService.add(user);
     }
+
+    @RequestMapping(value = "/modificare", method = RequestMethod.POST)
+    public Boolean saveChanges(@RequestBody User newUser){
+
+        return userService.saveChanges(newUser);
+    }
+
+
+
 }

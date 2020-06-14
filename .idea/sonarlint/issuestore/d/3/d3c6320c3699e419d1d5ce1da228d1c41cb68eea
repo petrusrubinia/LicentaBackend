@@ -1,12 +1,16 @@
 
+\
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(ªîÈC8÷ü÷·›.
+g
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8÷ü÷·›.
+g
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Åë¹Æ8÷ü÷·›.
 b
-java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(…·õ¹ÿÿÿÿÿ8÷ü÷·›.
+java:S4684!"@Replace this persistent entity with a simple POJO or DTO object.(ÿú¦üÿÿÿÿ8¾½Ëè£.
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óØÌŸúÿÿÿÿ8÷ü÷·›.
 b
 java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(ş¿Ÿøÿÿÿÿ8÷ü÷·›.
 l
+java:S4488 "JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ÑØ½úÿÿÿÿ8ıÔÈè£.
+l
 java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ËàÕŒıÿÿÿÿ8÷ü÷·›.
-g
-java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Åë¹Æ8÷ü÷·›.
-g
-java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8÷ü÷·›.

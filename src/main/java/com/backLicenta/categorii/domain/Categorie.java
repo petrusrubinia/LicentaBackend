@@ -13,7 +13,7 @@ import java.util.Date;
 
 @Entity
 @Builder
-@Table(name = "categorii", schema="licenta")
+@Table(name = "categorii", schema="licenta1")
 public class Categorie {
     @Getter
     @Setter

@@ -16,6 +16,7 @@ import lombok.Setter;
 public class User implements Serializable{
 
     @Id
+    @Getter
     @Column(name = "id", unique = true)
     private int id;
 
@@ -43,6 +44,7 @@ public class User implements Serializable{
     @Setter
     @Column(name = "parola", nullable = false)
     private String parola;
+
 
 
     public User(String nume, String prenume, String email, String utilizator, String parola) {
