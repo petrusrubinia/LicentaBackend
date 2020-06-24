@@ -1,0 +1,11 @@
+
+E
+java:S1148!"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ï¯¯  .
+]	java:S125"<This block of commented-out lines of code should be removed.(‰Û£Øþÿÿÿÿ8Š¢òž .
+l
+java:S4488("JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(µ‰Ðóþÿÿÿÿ8‘úì“«.
+l
+java:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(þ‰Íøüÿÿÿÿ8ï¯¯  .
+E
+java:S1148/"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8‘úì“«.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îÜààýÿÿÿÿ

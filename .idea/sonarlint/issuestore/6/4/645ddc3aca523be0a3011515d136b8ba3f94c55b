@@ -1,0 +1,20 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ç¸ Æ
+]
+java:S1854$";Remove this useless assignment to local variable "aliment".(¿²Ðƒÿÿÿÿÿ8óÂä”«.
+X	java:S125#"<This block of commented-out lines of code should be removed.(©·›‘8Ù‹Í‚«.
+H
+java:S1168*"+Return an empty collection instead of null.(¥¹ï8Äò“«.
+c	java:S8992"BDo something with the "boolean" value returned by "createNewFile".(ÖàÖ¸ûÿÿÿÿ8¼‡´  .
+U
+java:S1068"8Remove this unused "iDetectareRepository" private field.(Õºêô8©´Ü  .
+o
+java:S20953"RUse try-with-resources or close this "BufferedOutputStream" in a "finally" clause.(®±æê8¼‡´  .
+m	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ì†¦8­óó¡ .
+_
+java:S18540"BRemove this useless assignment to local variable "path_actualImg".(«ì†¦8ä›‰¢ .
+P
+java:S14810"3Remove this unused "path_actualImg" local variable.(«ì†¦8ä›‰¢ .
+N
+java:S1481$",Remove this unused "aliment" local variable.(¿²Ðƒÿÿÿÿÿ8óÂä”«.
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(ž‚ßÎ8¯ä–¢ .

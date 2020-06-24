@@ -1,0 +1,17 @@
+
+[	java:S107E"AConstructor has 8 parameters, which is greater than 7 authorized.(¯¨ÑÆøÿÿÿÿ
+V	java:S107P"AConstructor has 9 parameters, which is greater than 7 authorized.(ù¡º’
+V	java:S107]"BConstructor has 10 parameters, which is greater than 7 authorized.(Ãà˜r
+k	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¨ÑÆøÿÿÿÿ
+k	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¨ÑÆøÿÿÿÿ
+k	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¨ÑÆøÿÿÿÿ
+f	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù¡º’
+f	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù¡º’
+f	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù¡º’
+e	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãà˜r
+e	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãà˜r
+e	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãà˜r
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îÚÇªüÿÿÿÿ
+p	java:S116 "VRename this field "cod_de_bare" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¹“Œøÿÿÿÿ
+r	java:S116>"XRename this field "data_expirare" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á„÷íûÿÿÿÿ
+r	java:S116C"]Rename this field "data_achizitionare" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µƒ Þ

@@ -1,0 +1,17 @@
+
+J
+java:S1068
+"-Remove this unused "interval3" private field.(Ù­œþ8»ˆ«¡ª.
+D
+java:S16594""Declare "min3" on a separate line.(Ò÷´œùÿÿÿÿ8ºÔÎ¡ª.
+D
+java:S16594""Declare "min2" on a separate line.(Ò÷´œùÿÿÿÿ8è•Î¡ª.
+O
+java:S1068"-Remove this unused "interval1" private field.(÷‹Œ¨øÿÿÿÿ8®¿‚¡ª.
+O
+java:S1068	"-Remove this unused "interval2" private field.(ïÀ–òùÿÿÿÿ8»ˆ«¡ª.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ±Û…úÿÿÿÿ
+X	java:S125""<This block of commented-out lines of code should be removed.(úîá‡8¢³ªª.
+X	java:S125"<This block of commented-out lines of code should be removed.(úîá‡8ãá¦ª.
+C
+java:S16594"!Declare "max" on a separate line.(Ò÷´œùÿÿÿÿ8è•Î¡ª.
