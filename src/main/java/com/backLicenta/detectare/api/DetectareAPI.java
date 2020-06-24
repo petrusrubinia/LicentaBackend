@@ -1,7 +1,7 @@
 package com.backLicenta.detectare.api;
 
 
-import com.backLicenta.detectare.domain.Aliment;
+import com.backLicenta.detectare.domain.AlimentDetect;
 import com.backLicenta.detectare.service.IDetectareService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,7 +24,7 @@ public class DetectareAPI {
     }
 
     @RequestMapping(value = "/detectare", headers = "Content-Type= multipart/form-data", method = RequestMethod.POST)
-    public List<Aliment> fileUpload(@RequestParam("file") MultipartFile file) {
+    public List<AlimentDetect> fileUpload(@RequestParam("file") MultipartFile file) {
 
         byte[] photo = null;
         try {
@@ -38,7 +38,7 @@ public class DetectareAPI {
 
     }
     @RequestMapping(value = "/stergere", headers = "Content-Type= multipart/form-data", method = RequestMethod.POST)
-    public List<Aliment> videoUpload(@RequestParam("file") MultipartFile file) {
+    public List<AlimentDetect> videoUpload(@RequestParam("file") MultipartFile file) {
 
         byte[] video = null;
         try {

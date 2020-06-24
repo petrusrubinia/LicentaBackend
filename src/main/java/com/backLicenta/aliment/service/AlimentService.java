@@ -4,6 +4,7 @@ import com.backLicenta.aliment.domain.Aliment;
 import com.backLicenta.aliment.domain.CodDeBare;
 import com.backLicenta.aliment.repository.IAlimentRepository;
 import com.backLicenta.aliment.repository.ICodBareRepository;
+import com.backLicenta.aliment.repository.Utils;
 import com.backLicenta.aliment.validator.AlimentValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,12 +21,14 @@ public class AlimentService implements IAlimentService {
     private final IAlimentRepository alimentRepository;
     private final AlimentValidator alimentValidator;
     private final ICodBareRepository codBareRepository;
+    private final Utils utils;
 
     @Autowired
-    public AlimentService(final IAlimentRepository alimentRepository, final ICodBareRepository codBareRepository, final AlimentValidator alimentValidator) {
+    public AlimentService(final IAlimentRepository alimentRepository, final ICodBareRepository codBareRepository, final AlimentValidator alimentValidator,final Utils utils) {
         this.alimentRepository = alimentRepository;
         this.codBareRepository = codBareRepository;
         this.alimentValidator = alimentValidator;
+        this.utils = utils;
     }
 
     public Aliment add(Aliment aliment) {
@@ -103,32 +106,11 @@ public class AlimentService implements IAlimentService {
     public int getOptimumTemp() {
         List<Aliment> alimentList = alimentRepository.getAllWithTempQuantity();
         System.out.println( "->>>>>>>>>>>>>>" +alimentList);
-        float CC = temperatureStorage(alimentList);
-        float C = quantity(alimentList);
-        Fuzzy fuzzy = new Fuzzy(CC,C);
+        Fuzzy fuzzy = new Fuzzy(alimentList,utils);
         System.out.println("de cee??");
-
+        fuzzy.fuzzy();
         return 3;
     }
-
-    private float quantity(List<Aliment> alimentList) {
-        float sum = 0.0f;
-        for(int i = 0; i< alimentList.size(); i++)
-        {
-            sum+= (float)alimentList.get(i).getBucati()* (float)Integer.parseInt(alimentList.get(i).getCantitate());
-        }
-        return sum;
-    }
-
-    private float temperatureStorage(List<Aliment> alimentList) {
-        float sum = 0.0f;
-        for(int i = 0; i< alimentList.size(); i++)
-        {
-            sum+= (float)alimentList.get(i).getTemperatura();
-        }
-        return sum/(alimentList.size() - 1);
-    }
-
     @Override
     public int getActualTemp() {
         System.out.println("in get ActualTempp");

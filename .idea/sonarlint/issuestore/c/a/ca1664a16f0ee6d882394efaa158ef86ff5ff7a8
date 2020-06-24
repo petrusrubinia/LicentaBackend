@@ -1,18 +1,18 @@
 
-X	java:S125="<This block of commented-out lines of code should be removed.(Ù¢­Ê8ö§Ø¨.
-]	java:S125A"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ö§Ø¨.
-]	java:S125C"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ö§Ø¨.
-
-java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8æ¨¨Ø¨.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¢­´üÿÿÿÿ8ÒÀÊ…“.
 ]	java:S125#"<This block of commented-out lines of code should be removed.(òò±íÿÿÿÿÿ8ö§Ø¨.
 ]	java:S125E"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ö§Ø¨.
+]	java:S125%"<This block of commented-out lines of code should be removed.(Çõ¾şÿÿÿÿ8ö§Ø¨.
+]	java:S125?"<This block of commented-out lines of code should be removed.(’ßËşÿÿÿÿ8ö§Ø¨.
+]	java:S125C"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ö§Ø¨.
+X	java:S125!"<This block of commented-out lines of code should be removed.(¨Ÿ»8ö§Ø¨.
+X	java:S125="<This block of commented-out lines of code should be removed.(Ù¢­Ê8ö§Ø¨.
+W	java:S125;"<This block of commented-out lines of code should be removed.(÷áÌ8ö§Ø¨.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(şíëªùÿÿÿÿ8æ¨¨Ø¨.
+]	java:S1255"<This block of commented-out lines of code should be removed.(Â™†úÿÿÿÿ8ö§Ø¨.
+
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8æ¨¨Ø¨.
 X	java:S1259"<This block of commented-out lines of code should be removed.(ã›Ç°8ö§Ø¨.
 
 java:S1128"]Remove this unused import 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder'.(åÅÚ…ûÿÿÿÿ8¡‡İì¢.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(şíëªùÿÿÿÿ8æ¨¨Ø¨.
-]	java:S125%"<This block of commented-out lines of code should be removed.(Çõ¾şÿÿÿÿ8ö§Ø¨.
-]	java:S1255"<This block of commented-out lines of code should be removed.(Â™†úÿÿÿÿ8ö§Ø¨.
-X	java:S125!"<This block of commented-out lines of code should be removed.(¨Ÿ»8ö§Ø¨.
-]	java:S125?"<This block of commented-out lines of code should be removed.(’ßËşÿÿÿÿ8ö§Ø¨.
-W	java:S125;"<This block of commented-out lines of code should be removed.(÷áÌ8ö§Ø¨.
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¢­´üÿÿÿÿ8ÒÀÊ…“.
+]	java:S125A"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ö§Ø¨.

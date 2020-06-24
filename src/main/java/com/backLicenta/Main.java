@@ -9,6 +9,7 @@ import ai.djl.repository.zoo.ModelZoo;
 import ai.djl.repository.zoo.ZooModel;
 import ai.djl.training.util.ProgressBar;
 import ai.djl.translate.TranslateException;
+import com.backLicenta.aliment.service.IAlimentService;
 import com.backLicenta.aliment.validator.AlimentAPIException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,10 +20,17 @@ import java.io.IOException;
 
 @SpringBootApplication
 public class Main {
+    private final IAlimentService alimentService;
 
+    public Main(final IAlimentService alimentService){
+        this.alimentService = alimentService;
+        alimentService.getOptimumTemp();
+    }
     public static void main(String[] args) throws Exception {
         try {
             SpringApplication.run(Main.class, args);
+
+
         }catch (AlimentAPIException api)
         {
             System.out.println("errr");

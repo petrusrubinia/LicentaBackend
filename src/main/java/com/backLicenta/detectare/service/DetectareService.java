@@ -1,6 +1,6 @@
 package com.backLicenta.detectare.service;
 
-import com.backLicenta.detectare.domain.Aliment;
+import com.backLicenta.detectare.domain.AlimentDetect;
 import com.backLicenta.detectare.repository.IDetectareRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,21 +24,20 @@ public class DetectareService implements IDetectareService {
     }
 
     @Override
-    public List<Aliment> detect(byte[] bytes, String name) {
+    public List<AlimentDetect> detect(byte[] bytes, String name) {
         savePhoto(bytes, name);
         return detectFruitVegetables(name);
     }
     @Override
-    public List<Aliment> detectFruitVegetables(String name) {
+    public List<AlimentDetect> detectFruitVegetables(String name) {
         //se detecteaza alimentele din imaginea path+name
-        List<Aliment> list = new ArrayList();
-        //list.add(new Aliment("" ,"fructEg2","fructe","200",2,"20-10-2020","22-10-2020"));
-        Aliment aliment = new Aliment(2,"cod","nume","categorie","cantitate",3,4,"exp","achi");
+        List<AlimentDetect> list = new ArrayList();
+        list.add(new AlimentDetect(2,"cod","nume","categorie","cantitate",3,4,"exp","achi"));
         return list;
     }
 
     @Override
-    public List<Aliment> remove(byte[] video, String name) {
+    public List<AlimentDetect> remove(byte[] video, String name) {
         return null;
     }
 

@@ -87,3 +87,5 @@ i
 9src/main/java/com/backLicenta/aliment/domain/Sigmoid.java,2\0\20bfe3ade56448f6d76910d44ef04d2db9e95a95
 h
 8src/main/java/com/backLicenta/aliment/service/Fuzzy.java,3\0\306a5edb4568952657f9e5df4ca63a992363a1be
+k
+;src/main/java/com/backLicenta/detectare/domain/Aliment.java,9\1\91b0b4ac4a9ebe3bd953ad3f04f45ab8b654e16d

@@ -1,30 +1,30 @@
 
+m	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½§—µ8ëãÕšª.
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(€¢Ù·ıÿÿÿÿ8–¾Ôšª.
+a
+java:S1854["?Remove this useless assignment to local variable "alimentList".(ŸÌ„Úıÿÿÿÿ8“ÖÔ©.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£á¡İûÿÿÿÿ8¸Áş¶›.
+Z	java:S106m"9Replace this use of System.out or System.err by a logger.(…—²ùÿÿÿÿÿ8ïŒ›ª.
+{
+java:S2293P"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŸÌ„Úıÿÿÿÿ8“ÖÔ©.
 [
 java:S1854l"9Remove this useless assignment to local variable "fuzzy".(¢Ë‚™øÿÿÿÿ8ÿëß¤ª.
 L
 java:S1481l"*Remove this unused "fuzzy" local variable.(¢Ë‚™øÿÿÿÿ8ÿëß¤ª.
-Z	java:S106m"9Replace this use of System.out or System.err by a logger.(…—²ùÿÿÿÿÿ8ïŒ›ª.
-{
-java:S2293P"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŸÌ„Úıÿÿÿÿ8“ÖÔ©.
 W
 java:S3400š"9Remove this method and declare a constant for this value.(”·³›8“ÖÔ©.
+r	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºœìÒüÿÿÿÿ8ëãÕšª.
 U	java:S106""9Replace this use of System.out or System.err by a logger.(½íèÕ8¡‚¹Í©.
-V	java:S106Œ"9Replace this use of System.out or System.err by a logger.(ö¡¹ê8“ÖÔ©.
-Y	java:S125"<This block of commented-out lines of code should be removed.(¢‚“î8“ÖÔ©.
-S
-java:S3655‘"5Call "produs.isPresent()" before accessing the value.(š¥ÇÚ8“ÖÔ©.
-[	java:S106†"9Replace this use of System.out or System.err by a logger.(ç¡¥‚ûÿÿÿÿ8ıö‡›ª.
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£á¡İûÿÿÿÿ8¸Áş¶›.
-I
-java:S1172˜"+Remove this unused method parameter "list".(Íó¬¡8“ÖÔ©.
-W	java:S125."<This block of commented-out lines of code should be removed.(ÒÃ±J8ĞéİÔ©.
-m	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½§—µ8ëãÕšª.
 {
 java:S2293["YReplace the type specification in this constructor call with the diamond operator ("<>").(ŸÌ„Úıÿÿÿÿ8“ÖÔ©.
+Y	java:S125"<This block of commented-out lines of code should be removed.(¢‚“î8“ÖÔ©.
 Z	java:S106b"9Replace this use of System.out or System.err by a logger.(”Öàøûÿÿÿÿ8“ÖÔ©.
-Z	java:S106i"9Replace this use of System.out or System.err by a logger.(€¢Ù·ıÿÿÿÿ8–¾Ôšª.
-a
-java:S1854["?Remove this useless assignment to local variable "alimentList".(ŸÌ„Úıÿÿÿÿ8“ÖÔ©.
-r	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºœìÒüÿÿÿÿ8ëãÕšª.
+[	java:S106†"9Replace this use of System.out or System.err by a logger.(ç¡¥‚ûÿÿÿÿ8ıö‡›ª.
+V	java:S106Œ"9Replace this use of System.out or System.err by a logger.(ö¡¹ê8“ÖÔ©.
+W	java:S125."<This block of commented-out lines of code should be removed.(ÒÃ±J8ĞéİÔ©.
+S
+java:S3655‘"5Call "produs.isPresent()" before accessing the value.(š¥ÇÚ8“ÖÔ©.
 a
 java:S1854P"?Remove this useless assignment to local variable "alimentList".(ŸÌ„Úıÿÿÿÿ8“ÖÔ©.
+I
+java:S1172˜"+Remove this unused method parameter "list".(Íó¬¡8“ÖÔ©.
